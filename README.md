@@ -1,10 +1,10 @@
 # AIR THAI
-find near station 
-data based on [air4thai](http://air4thai.pcd.go.th/webV2/)
+
+Check the weather based on location, specify location values with latitude and longitude.
 
 ## Preparation
 ```bash
-node version ^10
+node version above 10
 ```
 
 ## Installation
@@ -23,8 +23,8 @@ interface input = {
 }
 
 const location:input = {
-  lat: 13.670809600000002,
-  long: 100.6501888
+  lat: 14.026564760517724,
+  long: 100.61505110969684
 }
 
 AirThai(location)
