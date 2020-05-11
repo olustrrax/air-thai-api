@@ -14,7 +14,7 @@
     "esModuleInterop": true,
     "noImplicitReturns": true,
     "resolveJsonModule": true,
-    "noImplicitAny": false, /*fix dialogflow module error*/
+    "noImplicitAny": false,
     "declaration": true,
   }
 }

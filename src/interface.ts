@@ -1,4 +1,4 @@
-export interface inputLocation{
-  lat: number
-  long: number
+export interface InputLocation {
+  lat: number;
+  long: number;
 }
