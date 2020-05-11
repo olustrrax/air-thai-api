@@ -40,4 +40,4 @@ const result = await AirThai({ lat: 13.670809600000002, long: 100.6501888 })
 
 ```
 ## Reference
-[reference](http://air4thai.pcd.go.th/webV2/)
+[รายงานสถานการณ์และคุณภาพอากาศประเทศไทย](http://air4thai.pcd.go.th/webV2/)
