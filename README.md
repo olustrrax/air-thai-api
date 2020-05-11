@@ -27,7 +27,16 @@ const location:input = {
   long: 100.61505110969684
 }
 
-AirThai(location)
+AirThai(location).then((data) => {
+  console.log('data', data)
+})
+
+```
+
+```javascript
+const { AirThai } = require("air-thai-api")
+
+const result = await AirThai({ lat: 13.670809600000002, long: 100.6501888 })
 
 ```
 ## Reference
