@@ -1,0 +1,20 @@
+{
+  "include": ["src","index.d.ts"],
+  "exclude": ["node_modules", "**/__tests__/*"],
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "lib": ["es6"],
+    "sourceMap": true,
+    "outDir": "lib",
+    "rootDir": "src",
+    "strict": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": false, /*fix dialogflow module error*/
+    "declaration": true,
+  }
+}

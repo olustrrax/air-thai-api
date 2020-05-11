@@ -1,0 +1,33 @@
+{
+  "name": "air-thai-api",
+  "version": "1.0.0",
+  "author": "Dusadee Srijulpo <dusadee.srj@gmail.com>",
+  "description": "Find PM2.5 around us",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "ts-node --transpile-only ./src/index.ts"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.5",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^25.5.1",
+    "ts-node": "^8.10.1",
+    "tslint": "^6.1.2",
+    "typescript": "^3.8.3"
+  }
+}
